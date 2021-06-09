@@ -86,8 +86,8 @@ section .position h2, p {
 
   .editorial {
       background-color: #08B3D0;
-      padding: 5px 5px 5px 5px;
-      border-radius: 5%;
+      padding: 10px 10px 10px 10px;
+      border-radius: 25px;
       font-family: sans-serif;
       color: white;
   }
@@ -108,24 +108,24 @@ section .position h2, p {
 
   .q1goals {
     background-color: violet;
-    padding: 5px 5px 5px 5px;
-    border-radius: 5%;
+    padding: 10px 10px 10px 10px;
+    border-radius: 25px;
     font-family: sans-serif;
     color: white;
   }
 
   .recruiting {
     background-color: #147586;
-    padding: 5px 5px 5px 5px;
-    border-radius: 5%;
+    padding: 10px 10px 10px 10px;
+    border-radius: 25px;
     font-family: sans-serif;
     color: white;
   }
 
   .mobile {
     background-color: #d05108;
-    padding: 5px 5px 5px 5px;
-    border-radius: 5%;
+    padding: 10px 10px 10px 10px;
+    border-radius: 25px;
     font-family: sans-serif;
     color: white;
   }
@@ -136,16 +136,16 @@ section .position h2, p {
 
   .website {
     background-color: #d0087d;
-    padding: 5px 5px 5px 5px;
-    border-radius: 5%;
+    padding: 10px 10px 10px 10px;
+    border-radius: 25px;
     font-family: sans-serif;
     color: white;
   }
 
   .sales {
     background-color: #9bd008;
-    padding: 5px 5px 5px 5px;
-    border-radius: 5%;
+    padding: 10px 10px 10px 10px;
+    border-radius: 25px;
     font-family: sans-serif;
     color: white;
   }
