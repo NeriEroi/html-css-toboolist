@@ -33,3 +33,35 @@ header .header.container h1 {
     margin-top: 40px;
     background-color: white;
 }
+
+main .position {
+    padding: 20px 0 10px 50px;;
+}
+
+
+/* two buttons properties */
+
+.button {
+    display: inline-block;
+    padding: 8px;
+    border-radius: 8%;
+    font-family: sans-serif;
+}
+
+.button.whitetext {
+    color: white;
+    background-color: #08B3D0;
+}
+
+.button.greytext {
+    color: grey;
+    background-color: white;
+    border: 1px solid grey;
+    margin-left: 5px;
+}
+
+#hr {
+    border-bottom: 1px solid lightgrey;
+}
+
+/* / two buttons properties */
