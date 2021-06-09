@@ -1,0 +1,18 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header.container {
+    background-color: white;
+    padding: 20px 0 0 20px;
+}
+
+header .header.container h1 {
+    display: inline-block;
+    vertical-align: 30%;
+    font-size: 40px;
+    font-family: sans-serif;   
+}
+
