@@ -67,6 +67,7 @@ main .position {
 /* / two buttons properties */
 
 /* new task properties */
+
 section .position h2, p {
     font-family: sans-serif;
 }
@@ -84,3 +85,48 @@ section .position h2, p {
       font-family: sans-serif;
       color: white;
   }
+
+  section .position .newtask {
+      margin-top: 20px;
+  }
+
+  /* / new task properties */
+
+  /* today */
+  
+  .row {
+    font-family: sans-serif;
+    margin: 20px 0 0 0;
+  }
+
+  .xmark {
+    color: red;
+    border: 2px solid red;
+    border-radius: 50%;
+  }
+
+  .q1goals {
+    background-color: violet;
+    padding: 5px 5px 5px 5px;
+    border-radius: 35%;
+    font-family: sans-serif;
+    color: white;
+  }
+
+  .recruiting {
+    background-color: #147586;
+    padding: 5px 5px 5px 5px;
+    border-radius: 35%;
+    font-family: sans-serif;
+    color: white;
+  }
+
+  .mobile {
+    background-color: #d05108;
+    padding: 5px 5px 5px 5px;
+    border-radius: 35%;
+    font-family: sans-serif;
+    color: white;
+  }
+
+  /* / today */
