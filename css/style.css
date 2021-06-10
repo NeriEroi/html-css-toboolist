@@ -85,6 +85,7 @@ section .position h2, p {
 .checkmark{
     color:green;
     border: 2px solid green;
+    padding: 5px 8px 5px 8px;
     border-radius: 50%;
   }
 
@@ -118,6 +119,7 @@ section .position h2, p {
   .xmark {
     color: red;
     border: 2px solid red;
+    padding: 5px 8px 5px 8px;
     border-radius: 50%;
   }
 
