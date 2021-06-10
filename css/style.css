@@ -31,7 +31,7 @@ header .header.container h1 {
 /* / header properties */
 
 
-/* main common properties */
+/* main properties */
 
 .main.container {
     width: 1000px;
@@ -42,13 +42,21 @@ header .header.container h1 {
 }
 
 main .position {
-    padding: 20px 0 10px 50px;;
+    padding: 30px 0 10px 50px;;
 }
 
-/* main common properties */
+main section .position {
+  margin-top: 10px;
+}
+
+/* main properties */
 
 
 /* two buttons properties */
+
+.buttons-position {
+  padding: 20px 0 10px 50px;
+}
 
 .button {
     display: inline-block;
@@ -76,11 +84,17 @@ main .position {
 /* / two buttons properties */
 
 
-/* new task properties */
+/* new task, today, and upcoming common properties */
 
-section .position h2, p {
+section .position h2, 
+section .position p {
     font-family: sans-serif;
 }
+
+/* new task, today, and upcoming common properties */
+
+
+/* new task properties */
 
 .checkmark{
     color:green;
@@ -93,12 +107,11 @@ section .position h2, p {
       background-color: #08B3D0;
       padding: 10px 10px 10px 10px;
       border-radius: 25px;
-      font-family: sans-serif;
       color: white;
   }
 
   section .position .newtask {
-      margin-top: 20px;
+      margin-top: 10px;
   }
 
   /* / new task properties */
@@ -107,8 +120,13 @@ section .position h2, p {
   /* today and upcoming common property */
 
 .row {
-  font-family: sans-serif;
   margin: 30px 0 0 0;
+  display: block;
+}
+
+section .position .rows-container {
+  margin-top: 10px;
+  
 }
 
 /* / today and upcoming common property */
@@ -127,7 +145,6 @@ section .position h2, p {
     background-color: violet;
     padding: 10px 10px 10px 10px;
     border-radius: 25px;
-    font-family: sans-serif;
     color: white;
   }
 
@@ -135,7 +152,6 @@ section .position h2, p {
     background-color: #147586;
     padding: 10px 10px 10px 10px;
     border-radius: 25px;
-    font-family: sans-serif;
     color: white;
   }
 
@@ -143,7 +159,6 @@ section .position h2, p {
     background-color: #d05108;
     padding: 10px 10px 10px 10px;
     border-radius: 25px;
-    font-family: sans-serif;
     color: white;
   }
 
@@ -156,7 +171,6 @@ section .position h2, p {
     background-color: #d0087d;
     padding: 10px 10px 10px 10px;
     border-radius: 25px;
-    font-family: sans-serif;
     color: white;
   }
 
@@ -164,7 +178,6 @@ section .position h2, p {
     background-color: #9bd008;
     padding: 10px 10px 10px 10px;
     border-radius: 25px;
-    font-family: sans-serif;
     color: white;
   }
 
