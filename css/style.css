@@ -1,3 +1,5 @@
+/* common */
+
 * {
     margin: 0;
     padding: 0;
@@ -8,10 +10,7 @@ body {
     background-color:lightgrey;
 }
 
-.row {
-    font-family: sans-serif;
-    margin: 30px 0 0 0;
-  }
+/* / common */
 
 
 /* header properties */
@@ -32,6 +31,8 @@ header .header.container h1 {
 /* / header properties */
 
 
+/* main common properties */
+
 .main.container {
     width: 1000px;
     height: 750px;
@@ -43,6 +44,8 @@ header .header.container h1 {
 main .position {
     padding: 20px 0 10px 50px;;
 }
+
+/* main common properties */
 
 
 /* two buttons properties */
@@ -72,6 +75,7 @@ main .position {
 
 /* / two buttons properties */
 
+
 /* new task properties */
 
 section .position h2, p {
@@ -97,6 +101,17 @@ section .position h2, p {
   }
 
   /* / new task properties */
+
+
+  /* today and upcoming common property */
+
+.row {
+  font-family: sans-serif;
+  margin: 30px 0 0 0;
+}
+
+/* / today and upcoming common property */
+
 
   /* today */
 
@@ -131,6 +146,7 @@ section .position h2, p {
   }
 
   /* / today */
+
 
   /* upcoming */
 
